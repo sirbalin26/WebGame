@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>
+		Web Game	
+	</title>
+	<meta name="author" content="Sirb Alin Cristian"/>
+        <meta name="description" content="Web Game"/>
+        <meta name="keywords" content="web, game"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="style WebGame.css"/>    
+    </head>
+    <body>
+        <center>
+		<h1>WebGame</h1>
+		<p>1.Piatra-Foarfeca-Hartie</p>
+        </center>
+        <div class="moves">
+			<div class="computer-move">
+				<div class="text">Computer</div>
+				<img id="computer" src="piatra.png" />
+			</div>
+			<div class="user-move">
+				<div class="text">Utilizator</div>
+				<img id="user" src="hartie.png" />
+			</div>
+		</div>
+
+		<div id="status">
+			 Rezultat
+		</div>
+
+		<div class="play">
+			<button onclick="game(0)">Piatra</button>
+			<button onclick="game(1)">Hartie</button>
+			<button onclick="game(2)">Foarfeca</button>
+        </div>
+	    <script type="text/javascript" src="script WebGame.js"></script>
+    </body>
+</html>
